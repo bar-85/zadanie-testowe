@@ -1,0 +1,42 @@
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title_border {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 265.7px;
+	margin-top: 32px;
+}
+
+.title_up {
+	max-width: 50.7px;
+	height: 6.7px;
+	font-size: 8.7px;
+	color: #0046cb;
+	font-family: Poppins;
+}
+
+.title_middle {
+	max-width: 216.6px;
+	height: 33.4px;
+	font-size: 14.9px;
+	font-family: Inter;
+	text-align: center;
+	color: #282835;
+	margin-top: 16.6px;
+}
+
+.title_bottom {
+	max-width: 265.7px;
+	height: 25.4px;
+	font-size: 8.9px;
+	font-family: Poppins;
+	text-align: center;
+	color: #818992;
+	margin-top: 17.9px;
+}
