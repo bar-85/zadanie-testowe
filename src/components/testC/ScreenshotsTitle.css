@@ -1,0 +1,39 @@
+.screen_border {
+	width: 265.7px;
+	height: 80.1px;
+	margin: 0 189.53px 50.6px 190.72px;
+}
+
+.screen_title_up {
+	width: 52.1px;
+	height: 6.7px;
+	margin: 0 107.4px 16.8px 106.2px;
+	font-family: Poppins;
+	font-size: 10px;
+	color: #0046cb;
+}
+
+.screen_title_middle {
+	width: 202.1px;
+	height: 14.1px;
+	margin: 0 32.6px 17.1px 31px;
+	font-family: Inter;
+	font-size: 14.9px;
+	color: #282835;
+}
+
+.screen_title_bottom {
+	width: 265.7px;
+	height: 25.4px;
+	margin: 0;
+	font-family: Poppins;
+	font-size: 8.9px;
+	color: #818992;
+}
+
+@media (max-width: 595px) {
+	.screen_border {
+		zoom: 130%;
+		margin: 0 auto;
+	}
+}

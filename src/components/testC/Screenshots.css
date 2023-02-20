@@ -1,0 +1,68 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+.screenshot {
+	position: relative;
+	width: 645.95px;
+	height: 467.6px;
+	margin: 51.7px 156.97px 31.5px 157.08px;
+}
+
+.screen_image {
+	width: 565.9px;
+	height: 336.9px;
+	margin: 0 45px 0 45px;
+}
+
+.slide {
+	position: relative;
+	transform: scale(0.8);
+	z-index: -100;
+	padding: -50px;
+}
+
+.activeSlide {
+	position: relative;
+	transform: scale(1);
+	
+  }
+  
+.arrow1
+.arrow2 {
+	position: relative;
+}
+
+.arrow_two {
+	position: absolute;
+	right: -10%;
+	bottom: 50%;
+}
+
+.arrow_one {
+	position: absolute;
+	left: -10%;
+	bottom: 50%;
+}
+
+@media (max-width: 990px) {
+	.screenshot {
+		zoom: 60%;
+		margin-top: 100px;
+	}
+
+	.screen_image {
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 595px) {
+	.screenshot {
+		zoom: 80%;
+		margin: 100px auto;
+	}
+
+	.screen_image {
+		zoom: 80%;
+		margin: 100px auto;
+	}
+}
