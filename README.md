@@ -1,3 +1,49 @@
+<h2 align="center">Zadanie testowe na podstawie projektu w Figma.</h2>
+<br />
+<br />
+Stronę można zobaczyć pod adresem: https://zad-test.netlify.app/
+<br />
+<br />
+<h2 align="left"> Technologie: </h2>
+<br />
+* React
+<br />
+* CSS
+<br />
+* React - slick
+<br />
+<br />
+<br />
+
+Cześć 1. 
+Dodanie licznika na elementy (bez liczenia ponownych kliknięć na aktywny element) - infromacja wyświetlana w konsoli. 
+<br />
+Część2. 
+Dodanie animowanych liczb.
+<br />
+Część 3. 
+Slider.
+<br />
+<br />
+
+
+![Screenshot_7](https://user-images.githubusercontent.com/105555319/220163016-6610e926-d670-4eb0-813b-f91af7107c5c.jpg)
+<br />
+<br />
+![Screenshot_8](https://user-images.githubusercontent.com/105555319/220163106-e83958cf-cc09-4957-88df-233a68ef9107.jpg)
+<br />
+<br />
+![Screenshot_10](https://user-images.githubusercontent.com/105555319/220163199-c05e3b0c-a225-4b31-879c-c865019d8548.jpg)
+<br />
+<br />
+![Screenshot_13](https://user-images.githubusercontent.com/105555319/220163541-6722f7a6-f0d6-4417-a852-a469281afaac.jpg)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
