@@ -1,0 +1,109 @@
+.back {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 23.96px 0 51.7px 0;
+	background-image: url(../../assets/back.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 308.7px;
+	z-index: -2;
+}
+
+.items {
+	display: flex;
+	color: #ffffff;
+	line-height: 1;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 131px;
+	height: 117px;
+	margin-right: 10px;
+	z-index: 2;
+}
+
+.img_download {
+	width: 21.7px;
+	height: 20.1px;
+}
+
+.img_happy {
+	width: 22.7px;
+	height: 19.9px;
+}
+
+.img_active {
+	width: 20.1px;
+	height: 20.1px;
+}
+
+.img_total {
+	width: 26.77px;
+	height: 20.2px;
+}
+
+.number {
+	font-family: Inter;
+	font-size: 22px;
+}
+
+.num_one {
+	margin: 24.7px 0 14.5px 0;
+}
+
+.num_two {
+	margin: 24.9px 0 14.2px 0px;
+}
+
+.num_three {
+	margin: 24.7px 0 14.5px 0;
+}
+
+.num_four {
+	margin: 24.6px 0 14.3px 0;
+}
+
+.fact_text {
+	font-family: Inter;
+	font-size: 10px;
+}
+
+.sub_one {
+	position: absolute;
+	width: 65.46px;
+	height: 49.2px;
+	margin: 135px 894.54px 124.5px 0;
+}
+
+.sub_two {
+	position: absolute;
+	width: 103.93px;
+	height: 85.2px;
+	margin: 143.1px 856.07px 80.4px 0;
+}
+
+.sub_three {
+	position: absolute;
+	width: 169px;
+	height: 187px;
+	margin: 64px 0 57.7px 791px;
+}
+
+.ellipse {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	margin: 253.5px 95.5px 16.2px 825.5px;
+}
+
+@media (max-width: 990px) {
+	.back {
+		margin: 50px auto;
+		zoom: 60%;
+	}
+}
