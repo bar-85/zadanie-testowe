@@ -1,0 +1,176 @@
+.page_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content {
+	width: 276.5px;
+	height: 300px;
+}
+
+.left {
+	flex: 1;
+	flex-direction: column;
+	margin-left: 194.5px;
+}
+
+.title_logo {
+	font-family: Inter;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 12px;
+}
+
+.title_one {
+	color: #0046cb;
+}
+
+.title_two {
+	color: #fd7d86;
+}
+
+.title_three {
+	color: #00d793;
+}
+
+.text {
+	font-family: Inter;
+	font-size: 8px;
+	color: #818992;
+}
+
+.text_one {
+	width: 230.1px;
+	height: 22.6px;
+	margin: 14.9px 33.3px 12px 12.6px;
+}
+
+.text_two {
+	width: 249.3px;
+	height: 22.2px;
+	margin: 14.9px 14.6px 12.4px 12.1px;
+}
+
+.text_three {
+	width: 240px;
+	height: 22.5px;
+	margin: 14.7px 22.8px 12.3px 12.4px;
+}
+
+.container_one,
+.container_two,
+.container_three {
+	cursor: pointer;
+	width: 276px;
+	height: 94px;
+}
+
+.container_two {
+	margin: 9px 0 9px 0;
+}
+
+.container_three {
+	margin: 0 9.53px, 0, 0;
+}
+
+.active {
+	height: 94px;
+	width: 276px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.logo_container {
+	display: flex;
+	align-items: center;
+}
+
+.finger {
+	width: 16.84px;
+	height: 17.9px;
+}
+
+.border {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32.5px;
+	height: 32.5px;
+	border-radius: 3px;
+	border: 1px solid #aabee5;
+	margin: 12px 14.1px 0px 12px;
+}
+
+.border_finger {
+	border: 1px solid #aabee5;
+}
+
+.right {
+	position: relative;
+	flex: 1;
+}
+
+.image {
+	width: 477.67px;
+	height: 367.04px;
+	margin: 25.5px 0 0 9.03px;
+}
+
+.phone {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+
+.group {
+	position: absolute;
+	width: 66.4px;
+	height: 56.4px;
+	opacity: 20%;
+}
+
+.group_one {
+	margin: 283.8px 373px 26.84px 38.27px;
+}
+
+.group_two {
+	margin: 8.8px 183px 301.84px 228.27px;
+}
+
+@media (max-width: 990px) {
+	.container {
+		display: block;
+	}
+
+	.left {
+		display: flex;
+		align-items: center;
+		margin: 50px 0 50px 0;
+	}
+
+	.right {
+		zoom: 60%;
+	}
+}
+
+@media (max-width: 595px) {
+	.container {
+		zoom: 150%;
+	}
+
+	.left {
+		zoom: 70%;
+	}
+
+	.right {
+		zoom: 60%;
+	}
+}
